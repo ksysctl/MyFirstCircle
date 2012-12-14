@@ -6,7 +6,7 @@
     <string name="cbg_description">Canvas Background</string>
     <string-array name="circle_array">
         <item>Select Circle color</item>
-        <item>Black</item>
+        <item>Yellow</item>
         <item>Green</item>
     </string-array>
     <string-array name="background_array">
