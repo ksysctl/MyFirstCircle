@@ -34,7 +34,6 @@ public class CircleView extends View {
 
     public void setPaddingColor(int color) {
         paddingColor = color;
-        invalidate();
     }
 
     @Override
