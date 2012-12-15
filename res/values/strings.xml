@@ -3,7 +3,6 @@
 
     <string name="app_name">My First Circle</string>
     <string name="menu_settings">Settings</string>
-    <string name="cbg_description">Canvas Background</string>
     <string-array name="circle_array">
         <item>Select Circle color</item>
         <item>Yellow</item>
