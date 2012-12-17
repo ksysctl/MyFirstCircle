@@ -3,10 +3,9 @@ package com.mbrenes.myfirstcircle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.graphics.Color;
 
-public class SpinnerListener extends Activity implements OnItemSelectedListener {
+public class SpinnerListener extends Activity implements AdapterView.OnItemSelectedListener {
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
     	if (pos > 0)  {
     		CircleView circle = MainActivity.getCircle();

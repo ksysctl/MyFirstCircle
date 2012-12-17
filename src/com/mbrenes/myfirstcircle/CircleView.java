@@ -53,15 +53,13 @@ public class CircleView extends View {
     public boolean onTouchEvent(MotionEvent event) {
     	super.onTouchEvent(event);
 
-        int action = event.getAction();
-        switch (action & MotionEvent.ACTION_MASK) {
+        switch (event.getAction()) {
         	case MotionEvent.ACTION_DOWN: {
         		x = event.getX();
         		y = event.getY();
         		touched = true;
 
         		invalidate();
-            break;
         	}
         }
 
